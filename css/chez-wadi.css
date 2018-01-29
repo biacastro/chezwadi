@@ -16,6 +16,10 @@ body {
 
 /*------index page------*/
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; 
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -24,6 +28,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#botao-home-reservar {
+  position: absolute;
 }
 
 .portfolio-item {
@@ -45,8 +53,8 @@ h5 {
 }
 
 .logo {
-  max-width: 155px;
-  padding: .25em;
+  max-width: 200px;
+  padding: .1em;
 }
 
 .bg-dark  {
@@ -58,6 +66,10 @@ h5 {
 
 }
 
+.btn:hover {
+  background-color: #00A194;
+}
+
 .btn {
   background-color: #006a53;
   color: #fff;
@@ -67,7 +79,7 @@ h5 {
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #ffc107;
+    background-color: #00A194;
 }
 
 .features-section  {
@@ -75,11 +87,35 @@ h5 {
   padding: 2em;
 }
 .fa { 
-  font-size: 9px;  }
+  font-size: 9px;
+  color: #00A194;
+
+ }
+
+  .carousel-caption {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
 
 li {
   line-height: 1.85em;
 } 
+
+blockquote {
+  size: 8px;
+  color: #777;
+  font-style: italic;
+  background-color: #eee;
+  padding: 1em;
+}
 
 footer {   
   background-color: #333 !important; 
